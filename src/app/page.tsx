@@ -222,9 +222,9 @@ export default function Home() {
     const subject = String(data.get("subject") || "").trim();
     const message = String(data.get("message") || "").trim();
 
-    const recipient = "your-email@example.com";
+    const recipient = "kahut260@gmail.com";
 
-    if (recipient === "your-email@example.com") {
+    if (recipient === "kahut260@gmail.com") {
       setFormStatus(
         "Before sending, replace your-email@example.com in the code with your real email address."
       );
@@ -2311,7 +2311,7 @@ export default function Home() {
             </p>
 
             <div className="contact-methods">
-              <a className="contact-method" href="mailto:your-email@example.com">
+              <a className="contact-method" href="mailto:kahut260@gmail.com">
                 <span className="detail-icon">
                   <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="3" y="5" width="18" height="14" rx="3" />
